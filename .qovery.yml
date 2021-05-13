@@ -1,0 +1,14 @@
+---
+application:
+  name: "tortoolkit-telegram"
+  project: "tortool"
+  organization: "QoveryCommunity"
+databases:
+- type: "POSTGRESQL"
+  name: "Toortool"
+routers:
+- name: "main-tortoolkit-telegram"
+  routes:
+  - application_name: "tortoolkit-telegram"
+    paths:
+    - "/*"
